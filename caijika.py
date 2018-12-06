@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from pandas import DataFrame,Series
 
-fp = r'E:\黄泰燚\2018.12.03所有数据\三极管采集卡数据\4\before'
+fp = r'E:\2018.12.03所有数据\三极管采集卡数据\4\before'
 os.chdir(fp)#设置工作路径
 filelist = os.listdir(fp)
 print(filelist)
